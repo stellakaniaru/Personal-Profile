@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- register service worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(function() {
+                        console.log("Service Worker Registered 😃`");
+                    });
+            });
+        }
+    </script>
+    <!-- end of service worker -->
+
+    <script type="text/javascript">
+        
+    </script>
+
+    <title>Stella Kaniaru - CV</title>
+    <meta name="theme-color" content="#fff" />
+    
+    <!-- add web manifest -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- add your web app icon url -->
+    <!-- <link rel="shortcut icon" sizes="32x32" href="https://pwafire.org/images/icons/pwafire32white.png"> -->
+    <link rel="shortcut icon" href="kaniaru-logo.png" >
+
+    <!-- <link rel="shortcut icon" sizes="32x32" href=""> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- add canonical url -->
+    <link rel="canonical" href="https://stellakaniaru.firebaseapp.com/">
+
+    <!-- add twitter meta data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="Stella Kaniaru - CV">
+    <meta name="twitter:creator" content="@ritakaniaru">
+    <meta name="twitter:title" content="Stella Kaniaru - CV">
+    <meta name="twitter:description" content="A personal profile of who I am and what I do">
+    <meta name="twitter:image" content="images/sample.jpg">
+    <meta name="keywords" content="Stella Kaniaru, service worker, workbox, google developers, technology, PWAFire, javascript, json, web, progressive web apps, pwa" />
+    <meta name="author" content="Stella Kaniaru" />
+
+    <!-- add facebook sharing meta data -->
+    <meta property="og:title" content="Stella Kaniaru - CV">
+    <meta property="og:site_name" content="Stella Kaniaru - CV">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="A personal profile of who I am and what I do">
+    <meta property="og:image" content="images/sample.png">
+    <meta property="og:image:type" content="image/png" />
+
+    <!-- add web app styles; below is just an example; delete it -->
+
+    <script src="assets/js/modernizr.js"></script>
+    
+    <!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+   <link rel="stylesheet" href="assets/css/media-queries.css">
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+
+    <!-- add more of your fonts + font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+</head>
+
+<body class="">
+   
+    <!--
+your web app
+-->
+
+<!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+             <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <!-- <li><a class="smoothscroll" href="#portfolio">Works</a></li> -->
+            <!-- <li><a class="smoothscroll" href="#testimonials">Quotes</a></li> -->
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Stella Kaniaru.</h1>
+            <h3>A Kenyan based <span>Android Developer</span>, <span>Tech enthusiats</span> and <span>Pythonista</span> working to grow amazing tech communities in my space. Dive <a class="smoothscroll" href="#about"> in</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/ritakaniaru"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about">👇</a>
+      </p>
+
+      
+
+   </header> <!-- Header End -->
+
+   <a href="sdf" onclick=""></a>
+   <img src="">
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/myAvatar.png" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I am an energetic young lady who enjoys solving challenges. I belive in seeing and bringing
+                out the good in those around me. I am very passionate about empowering the individuals who 
+                fall within my community by not only exposing them to  opportunities, but also
+                nurturing them to grow into better versions of themselves. I am given to the community and I am very blessed to be in one.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+                           <span>Stella Kaniaru</span><br>
+                           <span>175-00217<br>
+                                 Limuru, Kenya
+                     </span><br>
+                           <span>+254 716 909 547</span><br>
+                     <span>stellakaniaru16@gmail.com</span>
+                       </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Taita Taveta University</h3>
+                  <p class="info">Bachelors in Information Technology <span>&bull;</span> <em class="date">November 2020</em></p>
+
+                  <p>
+                  Being here allowed me to discover who I was, work on it and blossom into the person I am at the moment. The journey here has been life changing.
+                  </p>
+
+               </div>
+
+            </div> 
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Deveint</h3>
+                  <p class="info">Android developer- intern <span>&bull;</span> <em class="date">September 2018 - Present</em></p>
+
+                  <p>
+                  I get to work with an amazing group of people who inspire me and push me to work and become the best version of myself.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Lari Level 4 Hospital</h3>
+                  <p class="info">Database management<span>&bull;</span> <em class="date">April 2017 - June 2017</em></p>
+
+                  <p>
+                  I was incharge of the hospital database and ensuring that the patient records were fed into the system correctly.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>
+                I have learnt some new technologies along the way and I'm still learning. The following gives a good idea about what I have dabbled in so far :)
+            </p>
+
+                <div class="bars">
+
+                   <ul class="skills">
+                       <li><span class="bar-expand photoshop"></span><em>Python</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Android</em></li>
+                        <li><span class="bar-expand wordpress"></span><em>C</em></li>
+                        <li><span class="bar-expand css"></span><em>Java</em></li>
+                        <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand jquery"></span><em>CSS</em></li>
+                    </ul>
+
+                </div><!-- end skill-bars -->
+
+            </div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+    <!-- Portfolio Section
+   ================================================== -->
+  <!--  <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+ -->
+            <!-- portfolio-wrapper -->
+            <!-- <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/community.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                                  <h5>Community Development</h5>
+                              <p>Illustrration</p>
+                               </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+                </div> --> <!-- item end -->
+
+             <!--   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/stella.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                                  <h5>Developer Student Clubs</h5>
+                              <p>Leadership</p>
+                               </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+                </div> --> <!-- item end -->
+            <!-- </div>
+        </div>
+    </div>
+</section> -->
+
+
+
+<!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">
+                    Want to collaborate on something that will change someone's life? Get in touch mate! I will definately get back to you :)
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+                    <fieldset>
+
+                  <div>
+                           <label for="contactName">Name <span class="required">*</span></label>
+                           <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+                           <label for="contactEmail">Email <span class="required">*</span></label>
+                           <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+                           <label for="contactSubject">Subject</label>
+                           <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+                    </fieldset>
+                   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error mate!</div>
+               <!-- contact-success -->
+                   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+                   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+                       <h4>Address and Phone</h4>
+                       <p class="address">
+                           Stella Kaniaru<br>
+                           175-00217 <br>
+                           Limuru, Kiambu, Kenya<br>
+                           <span>+254 716 909 547</span>
+                       </p>
+
+                   </div>
+
+             
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2018 Kaniaru</li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home">☝</a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+
+
+    <!-- add web app scripts; below is just an 
+    example; delete it -->
+
+    <script src="assets/js/app.js"></script>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="assets/js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="assets/js/jquery.flexslider.js"></script>
+   <script src="assets/assets/js/waypoints.js"></script>
+   <script src="assets/js/jquery.fittext.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/init.js"></script>
+
+    
+</body>
+
+</html>
